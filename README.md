@@ -1,5 +1,5 @@
 # xiaocms-SQL注入
-xiaocms后台SQL注入  
+xiaocms后台SQL注入  CVE-2018-18189
 
 
 在xiaocms\admin\controller\database.php第81，90，99行，db操作中，直接引用了$name，该变量使用get方法传递，继续跟进，此处备注为修复表，可以查看该功能。
